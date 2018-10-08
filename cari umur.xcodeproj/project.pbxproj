@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E426158D216AFF9D008EC972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426158C216AFF9D008EC972 /* AppDelegate.swift */; };
+		E426158F216AFF9D008EC972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426158E216AFF9D008EC972 /* ViewController.swift */; };
+		E4261592216AFF9D008EC972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4261590216AFF9D008EC972 /* Main.storyboard */; };
+		E4261594216AFF9E008EC972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4261593216AFF9E008EC972 /* Assets.xcassets */; };
+		E4261597216AFF9E008EC972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4261595216AFF9E008EC972 /* LaunchScreen.storyboard */; };
+		E42615A2216AFF9E008EC972 /* cari_umurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42615A1216AFF9E008EC972 /* cari_umurTests.swift */; };
+		E42615AD216AFF9F008EC972 /* cari_umurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42615AC216AFF9F008EC972 /* cari_umurUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E426159E216AFF9E008EC972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4261581216AFF9D008EC972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4261588216AFF9D008EC972;
+			remoteInfo = "cari umur";
+		};
+		E42615A9216AFF9F008EC972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4261581216AFF9D008EC972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4261588216AFF9D008EC972;
+			remoteInfo = "cari umur";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4261589216AFF9D008EC972 /* cari umur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cari umur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E426158C216AFF9D008EC972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E426158E216AFF9D008EC972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4261591216AFF9D008EC972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4261593216AFF9E008EC972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4261596216AFF9E008EC972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4261598216AFF9E008EC972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E426159D216AFF9E008EC972 /* cari umurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cari umurTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42615A1216AFF9E008EC972 /* cari_umurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cari_umurTests.swift; sourceTree = "<group>"; };
+		E42615A3216AFF9F008EC972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42615A8216AFF9F008EC972 /* cari umurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cari umurUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42615AC216AFF9F008EC972 /* cari_umurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cari_umurUITests.swift; sourceTree = "<group>"; };
+		E42615AE216AFF9F008EC972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4261586216AFF9D008EC972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E426159A216AFF9E008EC972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42615A5216AFF9F008EC972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4261580216AFF9D008EC972 = {
+			isa = PBXGroup;
+			children = (
+				E426158B216AFF9D008EC972 /* cari umur */,
+				E42615A0216AFF9E008EC972 /* cari umurTests */,
+				E42615AB216AFF9F008EC972 /* cari umurUITests */,
+				E426158A216AFF9D008EC972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E426158A216AFF9D008EC972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4261589216AFF9D008EC972 /* cari umur.app */,
+				E426159D216AFF9E008EC972 /* cari umurTests.xctest */,
+				E42615A8216AFF9F008EC972 /* cari umurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E426158B216AFF9D008EC972 /* cari umur */ = {
+			isa = PBXGroup;
+			children = (
+				E426158C216AFF9D008EC972 /* AppDelegate.swift */,
+				E426158E216AFF9D008EC972 /* ViewController.swift */,
+				E4261590216AFF9D008EC972 /* Main.storyboard */,
+				E4261593216AFF9E008EC972 /* Assets.xcassets */,
+				E4261595216AFF9E008EC972 /* LaunchScreen.storyboard */,
+				E4261598216AFF9E008EC972 /* Info.plist */,
+			);
+			path = "cari umur";
+			sourceTree = "<group>";
+		};
+		E42615A0216AFF9E008EC972 /* cari umurTests */ = {
+			isa = PBXGroup;
+			children = (
+				E42615A1216AFF9E008EC972 /* cari_umurTests.swift */,
+				E42615A3216AFF9F008EC972 /* Info.plist */,
+			);
+			path = "cari umurTests";
+			sourceTree = "<group>";
+		};
+		E42615AB216AFF9F008EC972 /* cari umurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E42615AC216AFF9F008EC972 /* cari_umurUITests.swift */,
+				E42615AE216AFF9F008EC972 /* Info.plist */,
+			);
+			path = "cari umurUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4261588216AFF9D008EC972 /* cari umur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42615B1216AFF9F008EC972 /* Build configuration list for PBXNativeTarget "cari umur" */;
+			buildPhases = (
+				E4261585216AFF9D008EC972 /* Sources */,
+				E4261586216AFF9D008EC972 /* Frameworks */,
+				E4261587216AFF9D008EC972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cari umur";
+			productName = "cari umur";
+			productReference = E4261589216AFF9D008EC972 /* cari umur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E426159C216AFF9E008EC972 /* cari umurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42615B4216AFF9F008EC972 /* Build configuration list for PBXNativeTarget "cari umurTests" */;
+			buildPhases = (
+				E4261599216AFF9E008EC972 /* Sources */,
+				E426159A216AFF9E008EC972 /* Frameworks */,
+				E426159B216AFF9E008EC972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E426159F216AFF9E008EC972 /* PBXTargetDependency */,
+			);
+			name = "cari umurTests";
+			productName = "cari umurTests";
+			productReference = E426159D216AFF9E008EC972 /* cari umurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E42615A7216AFF9F008EC972 /* cari umurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42615B7216AFF9F008EC972 /* Build configuration list for PBXNativeTarget "cari umurUITests" */;
+			buildPhases = (
+				E42615A4216AFF9F008EC972 /* Sources */,
+				E42615A5216AFF9F008EC972 /* Frameworks */,
+				E42615A6216AFF9F008EC972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42615AA216AFF9F008EC972 /* PBXTargetDependency */,
+			);
+			name = "cari umurUITests";
+			productName = "cari umurUITests";
+			productReference = E42615A8216AFF9F008EC972 /* cari umurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4261581216AFF9D008EC972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "My Macbook";
+				TargetAttributes = {
+					E4261588216AFF9D008EC972 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E426159C216AFF9E008EC972 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E4261588216AFF9D008EC972;
+					};
+					E42615A7216AFF9F008EC972 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E4261588216AFF9D008EC972;
+					};
+				};
+			};
+			buildConfigurationList = E4261584216AFF9D008EC972 /* Build configuration list for PBXProject "cari umur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4261580216AFF9D008EC972;
+			productRefGroup = E426158A216AFF9D008EC972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4261588216AFF9D008EC972 /* cari umur */,
+				E426159C216AFF9E008EC972 /* cari umurTests */,
+				E42615A7216AFF9F008EC972 /* cari umurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4261587216AFF9D008EC972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4261597216AFF9E008EC972 /* LaunchScreen.storyboard in Resources */,
+				E4261594216AFF9E008EC972 /* Assets.xcassets in Resources */,
+				E4261592216AFF9D008EC972 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E426159B216AFF9E008EC972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42615A6216AFF9F008EC972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4261585216AFF9D008EC972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E426158F216AFF9D008EC972 /* ViewController.swift in Sources */,
+				E426158D216AFF9D008EC972 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4261599216AFF9E008EC972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42615A2216AFF9E008EC972 /* cari_umurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42615A4216AFF9F008EC972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42615AD216AFF9F008EC972 /* cari_umurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E426159F216AFF9E008EC972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4261588216AFF9D008EC972 /* cari umur */;
+			targetProxy = E426159E216AFF9E008EC972 /* PBXContainerItemProxy */;
+		};
+		E42615AA216AFF9F008EC972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4261588216AFF9D008EC972 /* cari umur */;
+			targetProxy = E42615A9216AFF9F008EC972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4261590216AFF9D008EC972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4261591216AFF9D008EC972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4261595216AFF9E008EC972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4261596216AFF9E008EC972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E42615AF216AFF9F008EC972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E42615B0216AFF9F008EC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E42615B2216AFF9F008EC972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cari umur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.cari-umur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E42615B3216AFF9F008EC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cari umur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.cari-umur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E42615B5216AFF9F008EC972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cari umurTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.cari-umurTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cari umur.app/cari umur";
+			};
+			name = Debug;
+		};
+		E42615B6216AFF9F008EC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cari umurTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.cari-umurTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cari umur.app/cari umur";
+			};
+			name = Release;
+		};
+		E42615B8216AFF9F008EC972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cari umurUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.cari-umurUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cari umur";
+			};
+			name = Debug;
+		};
+		E42615B9216AFF9F008EC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cari umurUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.cari-umurUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cari umur";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4261584216AFF9D008EC972 /* Build configuration list for PBXProject "cari umur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42615AF216AFF9F008EC972 /* Debug */,
+				E42615B0216AFF9F008EC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42615B1216AFF9F008EC972 /* Build configuration list for PBXNativeTarget "cari umur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42615B2216AFF9F008EC972 /* Debug */,
+				E42615B3216AFF9F008EC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42615B4216AFF9F008EC972 /* Build configuration list for PBXNativeTarget "cari umurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42615B5216AFF9F008EC972 /* Debug */,
+				E42615B6216AFF9F008EC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42615B7216AFF9F008EC972 /* Build configuration list for PBXNativeTarget "cari umurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42615B8216AFF9F008EC972 /* Debug */,
+				E42615B9216AFF9F008EC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4261581216AFF9D008EC972 /* Project object */;
+}
